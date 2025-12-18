@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #1f3c88;
+  color: white;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.logo p {
+  margin: 0;
+  font-size: 14px;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e') center/cover;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero button {
+  padding: 15px 30px;
+  background: #b22234;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.section {
+  padding: 50px 20px;
+  background: white;
+}
+
+.section.dark {
+  background: #1f3c88;
+  color: white;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #f4f4f4;
+  padding: 25px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
